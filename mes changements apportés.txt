@@ -19,7 +19,11 @@ J'ai supprimer le lien "page 2" sur la page contacte
 
 
 Ajustement du header le contenu est bien aligné et visible sur tout les formats
-Supression des keywords situé dans le header car cela peut etre interprété comme du blackHat par google
+Supression des keywords situé dans le header et le footer car cela peut etre interprété comme du blackHat par google
 ajout d'un background noir  pour les textes situé sur les images pour facilité la lecture
-Remplacement des images pour la description  du site  par du texte (h2 h3 et p) Meilleur référencement des mots clés
+Remplacement des images pour la description  du site  par du texte (h2 h3  et p) Meilleur référencement des mots clés
 augmentation de la police de caractère pour les h2 h3 et p pour avoir un texte lisible
+
+Ajout d'une animation sur la nav barre et les icones du footer
+Ajout d'une bordure et d'un fond sur les icones du footer
+Footer ajustement de la position des textes et icones
