@@ -1,0 +1,25 @@
+J'ai modifier la langue de la page qui etait sur default
+J'ai renommé la page2.html en contact.html
+J'ai rajouté un titre aux 2 pages
+J'ai également rajouter une balise description
+J'ai supprimer la balise meta keywords car elle n'est plus prise en compte par les moteurs de recherches pour le SEO
+
+J'ai mis une description des 2 pages  avec la balise meta name="description"
+
+remplacement du "page2"   par "Contact" dans les liens
+j'ai changé les alts des images des 2 pages pour que la description correspondent à chaques photos
+
+Mise à jour des balise HTML afin d'avoir une meilleur sementic et pour aider le robot de google à parcourir le contenu  ajout de Header Main Footer  et Section pour les différente partie à la place des div
+
+
+Conversion des image .bmp en .jpg pour optimiser les performance de chargement
+meilleur ajustement des photos Portefolio sur la page principal en format mobile
+J'ai supprimer le lien accueil dans la page principal
+J'ai supprimer le lien "page 2" sur la page contacte
+
+
+Ajustement du header le contenu est bien aligné et visible sur tout les formats
+Supression des keywords situé dans le header car cela peut etre interprété comme du blackHat par google
+ajout d'un background noir  pour les textes situé sur les images pour facilité la lecture
+Remplacement des images pour la description  du site  par du texte (h2 h3 et p) Meilleur référencement des mots clés
+augmentation de la police de caractère pour les h2 h3 et p pour avoir un texte lisible
