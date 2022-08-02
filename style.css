@@ -17,7 +17,6 @@ body {
 
 
 .maxSize75 {
-    width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -1130,19 +1129,20 @@ h4 {
 .iconFooter {
     margin-top: 15px;
     margin-bottom: 30px;
+    width: 30rem;
 }
 
 .fa {
     transition: all 400ms;
     background-color: rgba(255, 255, 255, 0.205);
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
-    width: 50px;
+    width: 45px;
     border: 1px solid black;
 }
 
 .fa:hover {
-    transform: scale(1.2);
+    transform: scale(1.4);
 }
 
 .footerPartner {
@@ -1160,12 +1160,14 @@ h4 {
 .flexColumnCenter {
     display: flex;
     justify-content: center;
+    width: 100%;
 
 }
 
 @media (max-width: 768px) {
     .flexColumnCenter {
         flex-direction: column;
-        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
