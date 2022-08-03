@@ -29,3 +29,6 @@ Footer ajustement de la position des textes et icones plus de probleme jusqu'en 
 
 J'ai retiré le .com des liens partners du footer
 Remplacement de l'email en texte par un lien qui dirige vers un envoi de mail
+Amelioration des formulaires de la page contact ils sont désormais correctement en dessous de leurs textes
+
+Passage de tout les CSS et JS au minimize pour un meilleur chargements de touts les fichiers
