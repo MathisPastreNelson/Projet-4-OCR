@@ -680,8 +680,8 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757 !important;
+    font-weight: 450;
+    color: #383838 !important;
 }
 
 .container {
@@ -812,13 +812,13 @@ h4 {
 }
 
 .tc-white {
-    color: #f2f2f2 !important;
+    color: #F3976C !important;
 }
 
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #000000 !important;
+    color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1170,4 +1170,30 @@ h4 {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+
+
+/*Seo Contact*/
+.contactTitle {
+    background-color: rgba(0, 0, 0, 0.829);
+    padding: 40px 40px 40px 40px;
+    border-radius: 5px;
+}
+
+.adressContact {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    .adressContact {
+        text-align: center;
+    }
+}
+
+.emailAdress {
+    margin: 0 0 10px;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: bold;
 }
