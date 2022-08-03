@@ -32,3 +32,10 @@ Remplacement de l'email en texte par un lien qui dirige vers un envoi de mail
 Amelioration des formulaires de la page contact ils sont désormais correctement en dessous de leurs textes
 
 Passage de tout les CSS et JS au minimize pour un meilleur chargements de touts les fichiers
+Tout les fichiers sont passé au HTML et CSS validator sans erreurs
+
+corrections des chevrons avant apres sur les photos page d'accueil
+les photos du portefolio ont toute la même tailles quand on clique dessus la description est centrée
+Correction du chevron de retour en haut de page le background ne dépassent plus
+ajout de ce meme chevron sur la page d'accueil
+

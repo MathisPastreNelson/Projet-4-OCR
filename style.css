@@ -3,8 +3,6 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 /*Crée spécialement pour l'optimisation SEO*/
@@ -47,9 +45,6 @@ a:hover {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     position: relative;
 }
@@ -81,9 +76,6 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto !important;
-    -moz-background-size: auto !important;
-    -o-background-size: auto !important;
     background-size: auto !important;
 }
 
@@ -389,7 +381,6 @@ a:hover {
 @media (min-width: 768px) {
     .site-navigation {
         transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
     }
 
     .nav>li .dropdown-menu a,
@@ -487,7 +478,6 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
 }
 
 button {
@@ -541,8 +531,7 @@ button {
 }
 
 .scrollToTop {
-    width: 40px;
-    height: 40px;
+    height: 50px;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -552,7 +541,7 @@ button {
 }
 
 .scrollToTop span {
-    margin-top: 6px;
+    margin-top: 5px;
 }
 
 .showScrollTop {
@@ -581,12 +570,10 @@ a[data-lightbox]:hover::before {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
 }
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
-    -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
 
@@ -602,18 +589,20 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-    max-height: 90vh;
+    height: 50vh;
     margin: 0 auto;
+    object-fit: cover;
 }
 
 .lightbox-caption {
-    padding: 20px;
     color: #FFF;
     background: rgba(0, 0, 0, .5);
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 15px;
+
 }
 
 .close-lightbox {
@@ -641,13 +630,14 @@ a[data-lightbox]:hover img {
 .prev-lightbox {
     font-size: 20px;
     color: rgba(255, 255, 255, .9);
-    background: rgba(0, 0, 0, .5);
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: 0.4;
+    opacity: 0.8;
+    background-clip: text;
 }
+
 
 .next-lightbox {
     padding: 6px 8px 1px 13px;
@@ -657,10 +647,6 @@ a[data-lightbox]:hover img {
 .prev-lightbox {
     padding: 6px 13px 1px 10px;
     left: 25px;
-}
-
-.snapshot-lb .modal-body {
-    padding-bottom: 45px;
 }
 
 .snapshot-lb .lightbox-caption {
@@ -888,13 +874,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -915,10 +901,6 @@ h4 {
         position: relative;
     }
 
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
 
     .bloc-group,
     .bloc-group .bloc {
@@ -929,8 +911,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -959,7 +939,6 @@ h4 {
     .site-navigation {
         position: inherit;
         transform: none;
-        -webkit-transform: none;
         -ms-transform: none;
         transition: all 500ms;
     }
@@ -1006,7 +985,6 @@ h4 {
     .navbar-collapse {
         padding: 0;
         overflow-x: hidden;
-        -webkit-box-shadow: none;
         box-shadow: none;
 
     }
@@ -1132,11 +1110,14 @@ h4 {
 
 .fa {
     transition: all 400ms;
-    background-color: rgba(255, 255, 255, 0.205);
+    background-color: rgba(255, 255, 255, 0.411);
     padding: 5px;
     border-radius: 10px;
     width: 45px;
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fa:hover {
