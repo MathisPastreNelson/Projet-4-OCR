@@ -1176,3 +1176,8 @@ h4 {
     line-height: 40px;
     font-weight: bold;
 }
+
+.titleFooter {
+    font-size: 15px;
+    font-weight: 700;
+}
