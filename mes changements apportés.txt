@@ -40,4 +40,5 @@ Correction du chevron de retour vers le haut de page le background ne dépassent
 Ajout de ce meme chevron sur la page d'accueil
 
 déplacement des scripts en bas de pages afin que le html/css se charge avant le javascript
+Ajout d'un aria-label sur chaque images/icones qui n'avait pas de noms
 
