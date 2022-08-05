@@ -5,21 +5,21 @@ J'ai mis une description des 2 pages  avec la balise meta name="description" dan
 J'ai supprimer la balise meta keywords car elle n'est plus prise en compte par les moteurs de recherches pour le SEO
 
 
-remplacement du "page2"   par "Contact" dans les liens
+Remplacement du "page2"   par "Contact" dans les liens
 J'ai supprimer le lien "Accueil" de la navbar dans la page d'accueil
 J'ai supprimer le lien "Contact" sur la page contact
 J'ai mis des alts approprié sur les images qui ont un sens pour le contenu du site j'ai laisser les autres alt vide
 Mise à jour des balise HTML afin d'avoir une meilleur sementic et pour aider le robot de google à parcourir le contenu  ajout de Header Main Footer  et Section pour les différente partie à la place des div
 
 
-Conversion des image .bmp en .jpg pour optimiser les performance de chargement
-meilleur ajustement des photos Portefolio sur la page principal en format mobile elles ont désormais toutes  la même taille sur le format mobile
+Conversion des image .bmp en .webp pour optimiser les performance de chargement 
+Ajustement des photos Portefolio sur la page principal en format mobile elles ont désormais toutes  la même taille sur le format mobile
 
 
 
 Ajustement du header de la page principal le contenu est bien aligné et visible sur tout les formats
 Supression des keywords situé dans le header et le footer car cela peut etre interprété comme du blackHat par google
-Ajout d'un background noir  pour les textes et les titres situé sur les images pour facilité la lecture
+Ajout d'un background noir  pour les textes et les titres situé sur les images pour faciliter la lecture
 Remplacement des images pour la description  du site  par du texte (h2 h3  et p) Meilleur référencement des mots clés
 Augmentation de la police de caractère pour les h2 h3 et p pour avoir un texte lisible
 
@@ -35,7 +35,9 @@ Passage de tout les CSS et JS au minimize pour un meilleur chargements de touts 
 Tout les fichiers sont passé au HTML et CSS validator sans erreurs
 
 corrections des chevrons avant apres sur les photos page d'accueil
-les photos du portefolio ont toute la même tailles quand on clique dessus la description est centrée
-Correction du chevron de retour en haut de page le background ne dépassent plus
-ajout de ce meme chevron sur la page d'accueil
+Les photos du portefolio ont toute la même tailles quand on clique dessus la description est centrée
+Correction du chevron de retour vers le haut de page le background ne dépassent plus
+Ajout de ce meme chevron sur la page d'accueil
+
+déplacement des scripts en bas de pages afin que le html/css se charge avant le javascript
 
