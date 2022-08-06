@@ -42,3 +42,5 @@ Ajout de ce meme chevron sur la page d'accueil
 déplacement des scripts en bas de pages afin que le html/css se charge avant le javascript
 Ajout d'un aria-label sur chaque images/icones qui n'avait pas de noms
 
+Le site est apte à etre visiter au clavier uniquement
+
