@@ -44,3 +44,5 @@ Ajout d'un aria-label sur chaque images/icones qui n'avait pas de noms
 
 Le site est apte à etre visiter au clavier uniquement
 
+Suppression des sites anuaires
+
