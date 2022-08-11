@@ -1184,6 +1184,15 @@ h4 {
 }
 
 *:focus {
-    border: 3px dotted rgb(0, 255, 0);
+    border: 3px solid rgb(0, 153, 255);
     border-radius: 10px;
+}
+
+.icon-social:focus>.fa {
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.icon-social:focus {
+    border: none;
 }
